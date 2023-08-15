@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-<h3><b>Hello-Rails-Back-End </b></h3>
+<h3><b>Hello-React-Front-End </b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -23,9 +23,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Hello Rails Back End <a name="about-project"></a>
+# 📖 Hello React Front End <a name="about-project"></a>
 
-A practice setup of a front end React that is accesses by a Rails based backend API. Click this [hello-rails-back-end](https://github.com/r-ahmed2022/hello-rails-back-end) link to access the backend app's repo.
+A practice setup of a front end React that is accesses a Rails based backend API. Click this [hello-rails-back-end](https://github.com/r-ahmed2022/hello-rails-back-end) link to access the backend app's repo.
 cd 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -36,7 +36,7 @@ cd
 
 ### Key Features <a name="key-features"></a>
 
-- **Built as an Api**
+- **Message Component**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,7 +105,7 @@ If you like this project or find it useful, please consider giving it a ⭐️. 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - Microverse.
-- Coce Reviewers
+- Code Reviewers
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
