@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+<h3><b>Hello-Rails-Back-End </b></h3>
+</div>
 
-## Available Scripts
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#author)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-### `npm start`
+# 📖 Hello Rails Back End <a name="about-project"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A practice setup of a front end React that is accesses by a Rails based backend API. Click this [hello-rails-back-end](https://github.com/r-ahmed2022/hello-rails-back-end) link to access the backend app's repo.
+cd 
+## 🛠 Built With <a name="built-with"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm test`
+- Ruby on Rails
+- PostgreSQL
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Key Features <a name="key-features"></a>
 
-### `npm run build`
+- **Built as an Api**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 💻 Getting Started <a name="getting-started"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get a local copy up and running, follow these steps.
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+In order to run this project you need: rails, postgresSQL
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clone the repo and open terminal in the project root directory
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Install
 
-## Learn More
+Install this project with:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+bundle install
+rails db:create
+rails db:migrate
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Create `.env` file in the root directory & add the database configurations. To use seed data, run `rails db:seed`.
 
-### Code Splitting
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To run the project, execute the following command:
 
-### Analyzing the Bundle Size
+```sh
+rails s
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+👤 **Riyaz Ahmed**
 
-### Advanced Configuration
+- GitHub: [r-ahmed2022](https://github.com/r-ahmed2022)
+- LinkedIn: [riyazahmedmicroverse](https://www.linkedin.com/in/riyazahmedmicroverse/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Deployment
+## 🔭 Future Features <a name="future-features"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- [ ] **Button component to fetch random greetings**
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/r-ahmed2022/hello-react-front-end/issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project or find it useful, please consider giving it a ⭐️. Thanks!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- Microverse.
+- Coce Reviewers
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
