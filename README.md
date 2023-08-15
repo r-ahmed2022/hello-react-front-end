@@ -25,15 +25,14 @@
 
 # 📖 Hello React Front End <a name="about-project"></a>
 
-A practice setup of a front end React that is accesses a Rails based backend API. Click this [hello-rails-back-end](https://github.com/r-ahmed2022/hello-rails-back-end) link to access the backend app's repo.
+A practice setup of a front end React that accesses a Rails based backend API. Click this [hello-rails-back-end](https://github.com/r-ahmed2022/hello-rails-back-end) link to access the backend app's repo.
 cd 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- Ruby on Rails
-- PostgreSQL
-
+- React JS
+- HTML/CSS
 ### Key Features <a name="key-features"></a>
 
 - **Message Component**
@@ -46,7 +45,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: rails, postgresSQL
+In order to run this project you need: react, react-dom, redux, @reduxjs/toolkit modules
 
 ### Setup
 
@@ -56,21 +55,14 @@ Clone the repo and open terminal in the project root directory
 
 Install this project with:
 
-```sh
-bundle install
-rails db:create
-rails db:migrate
-```
-
-Create `.env` file in the root directory & add the database configurations. To use seed data, run `rails db:seed`.
+- git clone https://github.com/r-ahmed2022/hello-react-front-end.git
+- npm start
 
 ### Usage
 
 To run the project, execute the following command:
 
-```sh
-rails s
-```
+- npm start
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
