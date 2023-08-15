@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchMessage} from '../redux/messageSlice';
+import { fetchMessage } from '../redux/messageSlice';
 
 const Greeting = () => {
-  const { message }= useSelector((state) => state.greeting?.message);
+  const { message } = useSelector((state) => state.greeting?.message);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -11,7 +11,7 @@ const Greeting = () => {
   }, [dispatch]);
 
   return (
-    <div>
+    <div className="message-section">
       <p>Message here</p>
       <h2>{message}</h2>
     </div>

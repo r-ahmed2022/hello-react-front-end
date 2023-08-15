@@ -1,8 +1,9 @@
 import React from 'react';
-import Greeting from './Greeting';
+import Greeting from './components/Greeting';
+import './index.css';
 
 const App = () => (
- <div>
+  <div className="container">
     <Greeting />
   </div>
 );
